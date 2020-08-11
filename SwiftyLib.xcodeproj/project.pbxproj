@@ -10,6 +10,9 @@
 		E870373524E18453002E6A15 /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = E870373324E18453002E6A15 /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E870373C24E1849E002E6A15 /* WeakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E870373B24E1849E002E6A15 /* WeakObject.swift */; };
 		E870373E24E184B9002E6A15 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E870373D24E184B9002E6A15 /* Multicast.swift */; };
+		E8F91FE524E235D7004D8700 /* RetryAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F91FE224E235D6004D8700 /* RetryAction.swift */; };
+		E8F91FE624E235D7004D8700 /* SafeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F91FE324E235D6004D8700 /* SafeTimer.swift */; };
+		E8F91FE724E235D7004D8700 /* ComponentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F91FE424E235D7004D8700 /* ComponentBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		E870373424E18453002E6A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E870373B24E1849E002E6A15 /* WeakObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakObject.swift; sourceTree = "<group>"; };
 		E870373D24E184B9002E6A15 /* Multicast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multicast.swift; sourceTree = "<group>"; };
+		E8F91FE224E235D6004D8700 /* RetryAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryAction.swift; sourceTree = "<group>"; };
+		E8F91FE324E235D6004D8700 /* SafeTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeTimer.swift; sourceTree = "<group>"; };
+		E8F91FE424E235D7004D8700 /* ComponentBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				E870373424E18453002E6A15 /* Info.plist */,
 				E870373B24E1849E002E6A15 /* WeakObject.swift */,
 				E870373D24E184B9002E6A15 /* Multicast.swift */,
+				E8F91FE424E235D7004D8700 /* ComponentBuilder.swift */,
+				E8F91FE224E235D6004D8700 /* RetryAction.swift */,
+				E8F91FE324E235D6004D8700 /* SafeTimer.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F91FE524E235D7004D8700 /* RetryAction.swift in Sources */,
+				E8F91FE724E235D7004D8700 /* ComponentBuilder.swift in Sources */,
 				E870373E24E184B9002E6A15 /* Multicast.swift in Sources */,
+				E8F91FE624E235D7004D8700 /* SafeTimer.swift in Sources */,
 				E870373C24E1849E002E6A15 /* WeakObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
