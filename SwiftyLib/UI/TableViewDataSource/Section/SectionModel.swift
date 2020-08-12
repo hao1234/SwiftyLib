@@ -16,7 +16,7 @@ open class SectionModel: SectionModelProtocol {
 
     public var rows: [ElementModel] = []
     
-    init(rows: [ElementModel] = []) {
+    public init(rows: [ElementModel] = []) {
         self.rows = rows
     }
     

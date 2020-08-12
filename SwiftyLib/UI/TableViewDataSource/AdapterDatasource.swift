@@ -13,7 +13,7 @@ open class AdapterDatasource: NSObject {
     public var shouldAutoDeselectRowAfterSelection = true
     public var defaultPaddingSection: CGFloat = 25
     
-    init(sections: [SectionModelProtocol]) {
+    public init(sections: [SectionModelProtocol]) {
         self.sections = sections
     }
 }

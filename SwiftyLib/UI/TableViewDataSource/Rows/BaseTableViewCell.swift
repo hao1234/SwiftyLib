@@ -34,7 +34,7 @@ open class BaseTableViewCell: UITableViewCell {
             setNeedsLayout()
         }
     }
-    public var bottomBorderInset: CGFloat = 0 {
+    public var bottomBorderLeftPadding: CGFloat = 0 {
         didSet {
             setNeedsLayout()
         }
@@ -63,9 +63,9 @@ open class BaseTableViewCell: UITableViewCell {
             width: self.bounds.size.width - topBorderLeftPadding - topBorderRightPadding,
             height: borderThickness)
         borderBottom?.frame = CGRect(
-            x: topBorderLeftPadding,
+            x: bottomBorderLeftPadding,
             y: self.bounds.size.height - borderThickness,
-            width: self.bounds.size.width - topBorderLeftPadding - topBorderRightPadding,
+            width: self.bounds.size.width - bottomBorderLeftPadding - bottomBorderRightPadding,
             height: borderThickness)
         reconfigureConstraint()
     }
@@ -84,15 +84,15 @@ open class BaseTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func configureView() {
+    open func configureView() {
         // Override to add subview
     }
     
-    public func configureConstraint() {
+    open func configureConstraint() {
         // Override to add constraint
     }
     
-    public func reconfigureConstraint() {
+    open func reconfigureConstraint() {
         // Override to update constraint
     }
     

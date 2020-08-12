@@ -14,11 +14,11 @@ open class Element: NSObject, ElementModel {
     public var hasNextPage = false
     private var actionBlock: TapElementBlock?
     
-    public func cellClass() -> AnyClass! {
+    open func cellClass() -> AnyClass! {
         BaseTableViewCell.self
     }
     
-    public func addAction(_ actionBlock: @escaping TapElementBlock) {
+    open func addAction(_ actionBlock: @escaping TapElementBlock) {
         self.actionBlock = actionBlock
     }
     
@@ -30,12 +30,13 @@ open class Element: NSObject, ElementModel {
         String(describing: cellClass().self)
     }
     
-    public func cell(for tableView: UITableView!, indexPath: IndexPath) -> UITableViewCell {
+    open func cell(for tableView: UITableView!, indexPath: IndexPath) -> UITableViewCell {
         tableView.register(cellClass(), forCellReuseIdentifier: indentifer())
         if let cell = tableView.dequeueReusableCell(
             withIdentifier: indentifer(),
             for: indexPath) as? BaseTableViewCell {
             configCell(cell: cell)
+            return cell
         }
         
         return UITableViewCell()
