@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E830AEE224E3A2A600730910 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEE124E3A2A600730910 /* Promise.swift */; };
+		E830AEE924E3C2E500730910 /* FileClientRequestableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEE424E3C2E500730910 /* FileClientRequestableProtocol.swift */; };
+		E830AEEA24E3C2E500730910 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEE524E3C2E500730910 /* FileService.swift */; };
+		E830AEEB24E3C2E500730910 /* FileClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEE624E3C2E500730910 /* FileClientError.swift */; };
+		E830AEEC24E3C2E500730910 /* FileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEE724E3C2E500730910 /* FileClient.swift */; };
+		E830AEED24E3C2E500730910 /* FIleClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEE824E3C2E500730910 /* FIleClientProtocol.swift */; };
+		E830AEF324E3C38100730910 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEF124E3C38100730910 /* KeychainWrapper.swift */; };
+		E830AEF424E3C38100730910 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AEF224E3C38100730910 /* KeychainItemAccessibility.swift */; };
+		E830AF0124E3C41900730910 /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0024E3C41900730910 /* Bundle+Additions.swift */; };
+		E830AF0324E3C47300730910 /* NSKeyedUnarchiver+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0224E3C47300730910 /* NSKeyedUnarchiver+Additions.swift */; };
+		E830AF0524E3C4A400730910 /* SynchronizedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0424E3C4A400730910 /* SynchronizedArray.swift */; };
+		E830AF0824E3C56100730910 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0724E3C56100730910 /* String+Additions.swift */; };
+		E830AF1224E3C5E700730910 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0B24E3C5E700730910 /* SectionModel.swift */; };
+		E830AF1324E3C5E700730910 /* SectionModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0C24E3C5E700730910 /* SectionModelProtocol.swift */; };
+		E830AF1424E3C5E700730910 /* AdapterDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0D24E3C5E700730910 /* AdapterDatasource.swift */; };
+		E830AF1524E3C5E700730910 /* ElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF0F24E3C5E700730910 /* ElementModel.swift */; };
+		E830AF1624E3C5E700730910 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF1024E3C5E700730910 /* BaseTableViewCell.swift */; };
+		E830AF1724E3C5E700730910 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF1124E3C5E700730910 /* Element.swift */; };
+		E830AF1924E3CF4100730910 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E830AF1824E3CF4100730910 /* UIView+Additions.swift */; };
 		E870373524E18453002E6A15 /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = E870373324E18453002E6A15 /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E870373C24E1849E002E6A15 /* WeakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E870373B24E1849E002E6A15 /* WeakObject.swift */; };
 		E870373E24E184B9002E6A15 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E870373D24E184B9002E6A15 /* Multicast.swift */; };
@@ -16,6 +35,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E830AEE124E3A2A600730910 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		E830AEE424E3C2E500730910 /* FileClientRequestableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileClientRequestableProtocol.swift; sourceTree = "<group>"; };
+		E830AEE524E3C2E500730910 /* FileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		E830AEE624E3C2E500730910 /* FileClientError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileClientError.swift; sourceTree = "<group>"; };
+		E830AEE724E3C2E500730910 /* FileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileClient.swift; sourceTree = "<group>"; };
+		E830AEE824E3C2E500730910 /* FIleClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIleClientProtocol.swift; sourceTree = "<group>"; };
+		E830AEF124E3C38100730910 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		E830AEF224E3C38100730910 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		E830AF0024E3C41900730910 /* Bundle+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Additions.swift"; sourceTree = "<group>"; };
+		E830AF0224E3C47300730910 /* NSKeyedUnarchiver+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSKeyedUnarchiver+Additions.swift"; sourceTree = "<group>"; };
+		E830AF0424E3C4A400730910 /* SynchronizedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedArray.swift; sourceTree = "<group>"; };
+		E830AF0724E3C56100730910 /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		E830AF0B24E3C5E700730910 /* SectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		E830AF0C24E3C5E700730910 /* SectionModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModelProtocol.swift; sourceTree = "<group>"; };
+		E830AF0D24E3C5E700730910 /* AdapterDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdapterDatasource.swift; sourceTree = "<group>"; };
+		E830AF0F24E3C5E700730910 /* ElementModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementModel.swift; sourceTree = "<group>"; };
+		E830AF1024E3C5E700730910 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		E830AF1124E3C5E700730910 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		E830AF1824E3CF4100730910 /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
 		E870373024E18453002E6A15 /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E870373324E18453002E6A15 /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
 		E870373424E18453002E6A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +75,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E830AEE324E3C2C900730910 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				E830AEE724E3C2E500730910 /* FileClient.swift */,
+				E830AEE624E3C2E500730910 /* FileClientError.swift */,
+				E830AEE824E3C2E500730910 /* FIleClientProtocol.swift */,
+				E830AEE424E3C2E500730910 /* FileClientRequestableProtocol.swift */,
+				E830AEE524E3C2E500730910 /* FileService.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		E830AEEE24E3C35200730910 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E830AEF524E3C39C00730910 /* Categories */,
+				E830AEF024E3C38100730910 /* Keychain */,
+				E870373B24E1849E002E6A15 /* WeakObject.swift */,
+				E870373D24E184B9002E6A15 /* Multicast.swift */,
+				E8F91FE424E235D7004D8700 /* ComponentBuilder.swift */,
+				E830AEE124E3A2A600730910 /* Promise.swift */,
+				E8F91FE224E235D6004D8700 /* RetryAction.swift */,
+				E8F91FE324E235D6004D8700 /* SafeTimer.swift */,
+				E830AF0424E3C4A400730910 /* SynchronizedArray.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E830AEF024E3C38100730910 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				E830AEF124E3C38100730910 /* KeychainWrapper.swift */,
+				E830AEF224E3C38100730910 /* KeychainItemAccessibility.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		E830AEF524E3C39C00730910 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E830AF0024E3C41900730910 /* Bundle+Additions.swift */,
+				E830AF0224E3C47300730910 /* NSKeyedUnarchiver+Additions.swift */,
+				E830AF0724E3C56100730910 /* String+Additions.swift */,
+				E830AF1824E3CF4100730910 /* UIView+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E830AF0624E3C50800730910 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E830AF0924E3C5B100730910 /* TableViewDataSource */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E830AF0924E3C5B100730910 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E830AF0D24E3C5E700730910 /* AdapterDatasource.swift */,
+				E830AF0E24E3C5E700730910 /* Rows */,
+				E830AF0A24E3C5E700730910 /* Section */,
+			);
+			path = TableViewDataSource;
+			sourceTree = "<group>";
+		};
+		E830AF0A24E3C5E700730910 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				E830AF0C24E3C5E700730910 /* SectionModelProtocol.swift */,
+				E830AF0B24E3C5E700730910 /* SectionModel.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		E830AF0E24E3C5E700730910 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				E830AF0F24E3C5E700730910 /* ElementModel.swift */,
+				E830AF1024E3C5E700730910 /* BaseTableViewCell.swift */,
+				E830AF1124E3C5E700730910 /* Element.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
 		E870372624E18453002E6A15 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +179,11 @@
 		E870373224E18453002E6A15 /* SwiftyLib */ = {
 			isa = PBXGroup;
 			children = (
+				E830AF0624E3C50800730910 /* UI */,
+				E830AEEE24E3C35200730910 /* Core */,
+				E830AEE324E3C2C900730910 /* File */,
 				E870373324E18453002E6A15 /* SwiftyLib.h */,
 				E870373424E18453002E6A15 /* Info.plist */,
-				E870373B24E1849E002E6A15 /* WeakObject.swift */,
-				E870373D24E184B9002E6A15 /* Multicast.swift */,
-				E8F91FE424E235D7004D8700 /* ComponentBuilder.swift */,
-				E8F91FE224E235D6004D8700 /* RetryAction.swift */,
-				E8F91FE324E235D6004D8700 /* SafeTimer.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -148,10 +269,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8F91FE524E235D7004D8700 /* RetryAction.swift in Sources */,
+				E830AF0524E3C4A400730910 /* SynchronizedArray.swift in Sources */,
+				E830AEED24E3C2E500730910 /* FIleClientProtocol.swift in Sources */,
+				E830AEE924E3C2E500730910 /* FileClientRequestableProtocol.swift in Sources */,
 				E8F91FE724E235D7004D8700 /* ComponentBuilder.swift in Sources */,
 				E870373E24E184B9002E6A15 /* Multicast.swift in Sources */,
+				E830AF0324E3C47300730910 /* NSKeyedUnarchiver+Additions.swift in Sources */,
+				E830AF0124E3C41900730910 /* Bundle+Additions.swift in Sources */,
 				E8F91FE624E235D7004D8700 /* SafeTimer.swift in Sources */,
+				E830AEEA24E3C2E500730910 /* FileService.swift in Sources */,
 				E870373C24E1849E002E6A15 /* WeakObject.swift in Sources */,
+				E830AF1224E3C5E700730910 /* SectionModel.swift in Sources */,
+				E830AF1924E3CF4100730910 /* UIView+Additions.swift in Sources */,
+				E830AEE224E3A2A600730910 /* Promise.swift in Sources */,
+				E830AEF324E3C38100730910 /* KeychainWrapper.swift in Sources */,
+				E830AF0824E3C56100730910 /* String+Additions.swift in Sources */,
+				E830AF1524E3C5E700730910 /* ElementModel.swift in Sources */,
+				E830AF1624E3C5E700730910 /* BaseTableViewCell.swift in Sources */,
+				E830AEF424E3C38100730910 /* KeychainItemAccessibility.swift in Sources */,
+				E830AEEC24E3C2E500730910 /* FileClient.swift in Sources */,
+				E830AEEB24E3C2E500730910 /* FileClientError.swift in Sources */,
+				E830AF1424E3C5E700730910 /* AdapterDatasource.swift in Sources */,
+				E830AF1724E3C5E700730910 /* Element.swift in Sources */,
+				E830AF1324E3C5E700730910 /* SectionModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
